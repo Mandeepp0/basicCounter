@@ -9,7 +9,14 @@ const valueChanger = (value) => {
     valuebtn.innerHTML = `<h1>${value}</h1>`;
 }
 
+const coolAnimation = (num) => {
+    while(num>=0){
+        console.log(num);
+        num--;
+    }
+};
 
+coolAnimation(20);
 
 
 decrease.addEventListener('click', () => valueChanger(--value))
